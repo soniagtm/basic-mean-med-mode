@@ -83,7 +83,9 @@ function findResult(type, N) {
     let typeName = " ";
     let result = 0;
     let modeArray = [];
+    let inputID = ["meanInput", "medianInput", "modeInput"];
 
+    document.getElementById(`${inputID[type-1]}`).value = "";
     document.getElementById("panel").style.display = "block";
 
     if (type === 1) {
