@@ -41,7 +41,6 @@ function findMode(N) {
     let modes = [];
     let count = [];
     let numbers = [];
-    let currentNum = 0;
     let maxCount = 0;
     let numFound = 0;
 
